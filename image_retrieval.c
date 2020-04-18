@@ -1,6 +1,6 @@
 /*
  * Finding most similar image within given directory by forking processes for subdirectories
- * within given directory
+ * within input directory
 */
 
 #include <stdio.h>
