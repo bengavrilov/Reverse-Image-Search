@@ -1,3 +1,9 @@
+/*
+ * The purpose of this class is to find the most similar image within the given directory
+ * using only a single process
+ * 
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
