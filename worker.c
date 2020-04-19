@@ -1,3 +1,7 @@
+/*
+ * File that stores an image into an object and compares similarity of images
+ * based on Euclidean distance
+*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
