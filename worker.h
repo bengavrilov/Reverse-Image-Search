@@ -1,3 +1,6 @@
+/*
+ * Contains all the necessary structs required for the other main classes
+*/
 #define PATHLENGTH 128
 
 // This data structure is used by the workers to prepare the output
