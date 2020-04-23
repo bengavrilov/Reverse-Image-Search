@@ -116,10 +116,14 @@ float compare_images(Image *img1, char *filename) {
 
         Image *new_image = read_image(filename);
         if (new_image == NULL) {
+                free(new_image->p);
+                free(new_image);
                 return FLT_MAX;
         }
 
         if ((img1->width != new_image->width) || (img1->height != new_image->height)) {
+                free(new_image->p);
+                free(new_image);
                 return FLT_MAX;
         }
 
